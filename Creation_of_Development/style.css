@@ -97,6 +97,12 @@ body{
     margin-bottom: 20px;
     transition: 0.5s;
     margin: 2em;
+    text-decoration: none;
+
+}
+.footerMenu:hover{
+    color:black;
+
 }
 @media(max-width:800px) {
     
