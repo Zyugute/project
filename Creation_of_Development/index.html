@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
 <!-- шапка -->
     <div class="header" id="header">
         <div class="headerlogo">
             <a href="https://youtu.be/dQw4w9WgXcQ?si=GIXPxEvmV1KahGZ4"target="_blank"><img height="150px"width="150px" src="image/space_logo.png"></a>
         </div>
         <div class="headername">
-            <h1>СОЗДАНИЕ САЙТОВ</h1>
+            <a class="headertext" href="#footer">СОЗДАНИЕ САЙТОВ</a>
         </div>
     </div>
     <div class="container">
@@ -36,7 +37,7 @@
             
         </div>
         </div>
-    
+    <!-- Мои сайты -->
     <section class="menu" id="my_sites">
         <h1 class="menuTitle">Галерея</h1>
         <div class="menuSelection">
@@ -89,8 +90,8 @@
         </div>
     </div>
     </section>
-
-    <section class="menu" id="menu">
+    <!-- Преимущества -->
+    <section class="menu" id="advantages">
         <h1 class="menuTitle">Преимущества</h1>
         <div class="menuSelection">
             <h3 class="menuCharter"></h3>
@@ -125,7 +126,7 @@
         </section>
 
         <section class="menu" id="menu">
-            <h1 class="menuTitle">создание сайтов</h1>
+            <h1 class="menuTitle">виды вёрстки сайтов</h1>
             <div class="menuSelection">
                 <h3 class="menuCharter"></h3>
                 <div class="menuWrap">
@@ -160,6 +161,7 @@
     </div>
         <!-- Подвал -->
         <footer class="footer">
+            <!-- Копирайт -->
             <div class="footerCopyright"> 
                 <img src="image/space_logo.png" alt="" width="300px" height="300px">
                 <h1>Creation of Development</h1>
@@ -167,23 +169,27 @@
                         © Copyright 2023 Creation of Development
                     </div>
             </div>
-            <nav class="Menu">
+            <!-- меню -->
+            <nav class="Menu"id="footer">
                 <a class="footerMenu" href="#header">Шапка</a>
                 <a class="footerMenu" href="#inf">о сайте</a>
                 <a class="footerMenu" href="#my_sites">мои сайты</a>
-                <a class="footerMenu" href="#">Преимущества</a>
+                <a class="footerMenu" href="#advantages">Преимущества</a>
                 <a class="footerMenu" href="#">Корзина</a>
             </nav>
+            <!-- местоположение -->
             <div class="footerinfo">
                 <a href="https://yandex.ru/maps/-/CDqruM4~"target="_blank"><img src="image/map.png"height="300px"width="300px"></a>
                 <p>Набережная улица, 14, микрорайон Северный,<br> Домодедово, Московская область, 142001</p>
                 <p>Creation_of_Development@gmail.ru</p>
                 <p>8(800)-555-35-35</p>
+                <!-- Музыка -->
+                <audio src="audio/ambient.mp3" autoplay loop type="audio/mp3">Ваш браузер не пожжерживает тег audio!</audio>
+                <!-- громкость минимум -->
+                <script> var audio=document.querySelector("audio");
+                audio.volume=0.01;</script>
             </div>
         </footer>
-            
-        
-    
     
 </body>
 </html>

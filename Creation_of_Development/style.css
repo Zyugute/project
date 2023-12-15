@@ -20,7 +20,11 @@ body{
     align-items: center;
     background:linear-gradient(#00025d,#5d0000);
     font-family: "Rus",sans-serif;
-    font-size: 2em;
+}
+.headertext{
+    text-decoration: none;
+    color: white;
+    font-size: 4em;
 }
 .inf{
     display: flex;
@@ -109,10 +113,18 @@ body{
         flex-direction: column;
         font-size: 1em;
     }
+    .headertext{
+        font-size: 2em;
+    }
     .inf{
         flex-direction: column;
     }
 }
-@media2() {
-    
+@media(max-width:500px) {
+    body{
+        font-size:1em;
+    }
+    .headertext{
+        font-size: 1.8em;
+    }
 }
