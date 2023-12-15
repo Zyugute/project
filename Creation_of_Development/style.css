@@ -26,6 +26,10 @@ body{
     color: white;
     font-size: 4em;
 }
+.headertext:hover{
+    color:black;
+    transition: 1s;
+}
 .inf{
     display: flex;
     justify-content: center;
@@ -106,7 +110,6 @@ body{
 }
 .footerMenu:hover{
     color:black;
-
 }
 @media(max-width:800px) {
     .header{
