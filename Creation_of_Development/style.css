@@ -1,0 +1,103 @@
+@font-face {
+    font-family:"Rus";
+    src: url(fonts/Blackcraft.ttf);
+}
+@font-face {
+    font-family:"Sur";
+    src: url(fonts/AmaticSC-Bold.ttf);
+}
+body{
+    background:linear-gradient(#5d0000,#00025d);
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Sur", sans-serif;
+    font-size: 2em;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(#00025d,#5d0000);
+    font-family: "Rus",sans-serif;
+    font-size: 2em;
+}
+.inf{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 20px;
+}
+.info{
+    background:linear-gradient(#00025d,#5d0000);
+    padding: 2em;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+.menuTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menuElement{
+    border-radius: 4px;
+    background:linear-gradient(#5d0000,#00025d);
+    box-shadow: 1px 1px 1px 2px #000dff;
+    margin: 20px 30px;
+    border-radius: 4px;
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menuCharter{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 30px auto;
+    width: 90%;
+    border-bottom: 1px solid;
+}
+.menuSelection{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menuWrap{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    background:linear-gradient(#00025d,#5d0000);
+    width:100%;
+}
+.footerCopyright{
+    margin: 0;
+}
+.footerMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    margin: 2em;
+}
+@media(max-width:800px) {
+    
+}
