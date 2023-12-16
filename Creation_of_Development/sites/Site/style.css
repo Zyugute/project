@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* HEADER */
+.headerLogo{
+    display: flex;
+    align-items: center;
+}
+
+
+.headerContent {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-top: 60px;
+    
+}
+
+.navElement {
+    margin-right: 10px;
+    text-transform: uppercase;
+    color:white;
+    transition: 0.7s;
+}
+
+.navElement:last-child { 
+    margin-right: 0;
+
+}
+ 
+.navElement:hover {
+    color: black;
+}
+
+.headerInner {
+    background-size: cover;
+    height: 782px;
+    background-image: url(./image/intro_bg.jpg);
+}
+
+.headerLogoText {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+
+.headerBackground {
+    background: linear-gradient(to right, #D52047CC, #EE3D1BCC);
+    height: 782px;
+}
+
+.headerAuthbutton {
+    color: white;
+    text-transform: uppercase;
+    background: none;
+    border: 1.5px solid white ;
+    padding: 10px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.headerAuthbutton:hover{
+    color: red;
+    border: 2px solid red;
+    
+}
+/* INTRO */
+
+.intro {
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    width: 540px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+
+.introTitle {
+    text-transform: uppercase;
+    font-size: 72px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 40px;
+    letter-spacing: 4px;
+}
+
+.introText{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 40px;
+}
+
+.introBtn {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    width: 160px;
+    height: 50px;
+    background-color: white;
+    color: #ED4C5C;
+    border: none;
+    border-radius: 6px;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.introBtn:hover{
+    background-color: red;
+    color:white;
+}
+
+/* SECTION APP */
+
+.app {
+
+}
+
+.appContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 105px;
+    padding-bottom: 95px;
+}
+
+.appContentLeft {
+    width: 445px;
+    height: 263px;
+}
+
+.appContentImg {
+    border-radius: 15px;
+}
+
+.appContentTitle {
+    font-weight: 500;
+    font-size: 36px;
+    
+    text-align: justify;
+}
+
+.appContentText {
+    font-weight: 400;
+    font-family: 'roboto', sans-serif;
+    font-size: 14px;
+
+}
+
+.appContentMore {
+    color: #ED4C5C;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* TIPS */
+
+.tips {
+    background-color: #ED4C5C;
+}
+
+.tipsContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 105px;
+    padding-bottom: 95px;
+}
+
+.tipsContentLeft {
+    width: 445px;
+    height: 263px;
+}
+
+.tipsContentImg {
+    border-radius: 15px;
+}
+
+.tipsContentTitle {
+    font-weight: 500;
+    font-size: 36px;
+    color: white;
+    text-align: justify;
+    
+}
+
+.tipsContentText {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+}
+
+.tipsContentDownload {
+    margin-top: 40px;
+}
+
+.tipsContentGooglePlay {
+    margin-right: 23px;
+}
+
+/* FOOTER */
+
+footer{
+    height: 245px;
+}
+
+.footerContent {
+    width: 175px;
+    padding-top: 45px;
+    margin-bottom: 45px;
+    font-family: 'Lato', sans-serif;
+}
+
+.footerAddressTitle {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footerAddressText{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footerCopyright{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+

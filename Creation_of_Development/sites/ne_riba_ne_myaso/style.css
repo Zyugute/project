@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "inter",sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.container{display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: 0.2fr 1fr;
+    height: 100vh;
+}
+.meinMenu {
+    background-color: #2F5C44;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.intro{
+    
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url(image/kartinka.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 667px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.introBackground{
+background-color: black;
+}
+
+.introText1:first-child{
+    color: #FF0000;
+    font-style: italic;
+    font-size: 60px;
+}
+.introText2 {
+    color: #FAFF00;
+    font-style: italic;
+    font-size: 55px;
+}
+.introText3 {
+    color: #05FF00;
+    font-style: italic;
+    font-size: 50px;
+}
+.introText4 {
+    color: #0E7BFB;
+    font-style: italic;
+    font-size: 45px;
+}
+.introText5 {
+    color: #D702FA;
+    font-style: italic;
+    font-size: 40px;
+}
+.btn{
+padding: 5px;
+background-color: chartreuse;
+color: black;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 20px; */
+    
+
+}
+.meinLogo{
+    color: white;   
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 65px;
+    font-size: 24px;
+    
+}
+.meinMenuElement{
+    padding: 20px 0 20px 0;
+    text-transform: .5s;
+    display: flex;
+}
+.meinMenuElement:first-child{
+    background-color:#2F5C44
+}
+.meinMenuElement:hover{
+    background-color:#05FF00;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+.menuTitle{
+    display: flex;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+}
+.menuElement{
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px #FF0000;
+    margin: 20px 30px;
+    border-radius: 4px;
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menuCharter{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 30px auto;
+    width: 90%;
+    border-bottom: 1px solid;
+}
+.menuSelection{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menuWrap{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menutextcartХ{
+
+}
+.zakaziga{
+    background-image: url(image/milahi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.text-zakaziga{
+    color: red;
+    display: flex;
+    font-size: 480px;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,37 @@
+body {
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+.test {
+     text-decoration: line-through;
+     text-align: right;
+}
+.second-class {
+    font-weight: bold;
+}
+#ds {
+    color: chocolate;
+    text-align: center;
+}
+.heading {
+      text-align: center;
+}
+.background-buisness-card {
+    width: 500px;
+    background: linear-gradient(#fbff06,  #1296e2a1);
+    margin: 25vh auto;
+    border-radius: 30px;
+    box-shadow: 3px 2px 1px rgb(0, 0, 0);
+}
+.buisness-card-content {
+   display:flex; 
+   align-items: center;
+}
+.buisness-card-text {
+    margin-left: 80px;
+}
+.buisness-card-logo {
+    /* border-radius: 100%; */
+    padding: 20px;
+}
