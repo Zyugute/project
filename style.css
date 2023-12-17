@@ -7,7 +7,7 @@
     src: url(fonts/AmaticSC-Bold.ttf);
 }
 body{
-    background:linear-gradient(#5d0000,#00025d);
+    background:linear-gradient(#431D32,#2A3759);
     color: white;
     margin: 0px;
     padding: 0px;
@@ -18,7 +18,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(#00025d,#5d0000);
+    background:linear-gradient(#2A3759,#431D32);
     font-family: "Rus",sans-serif;
 }
 .headertext{
@@ -37,7 +37,7 @@ body{
     padding: 20px;
 }
 .info{
-    background:linear-gradient(#00025d,#5d0000);
+    background:linear-gradient(#2A3759,#431D32);
     padding: 2em;
 }
 .container{
@@ -56,7 +56,7 @@ body{
 }
 .menuElement{
     border-radius: 4px;
-    background:linear-gradient(#5d0000,#00025d);
+    background:linear-gradient(#431D32,#2A3759);
     box-shadow: 1px 1px 1px 2px #000dff;
     margin: 20px 30px;
     border-radius: 4px;
@@ -90,7 +90,7 @@ body{
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-    background:linear-gradient(#00025d,#5d0000);
+    background:linear-gradient(#2A3759,#431D32);
     width:100%;
 }
 .footerCopyright{
@@ -124,9 +124,9 @@ body{
     }
 }
 @media(max-width:500px) {
-    body{
-        font-size:1em;
-    }
+    /* body{
+        font-size:1em; 
+    }*/
     .headertext{
         font-size: 1.8em;
     }
