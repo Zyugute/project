@@ -124,9 +124,9 @@ body{
     }
 }
 @media(max-width:500px) {
-    /* body{
-        font-size:1em; 
-    }*/
+    body{
+        font-size:1.5em; 
+    }
     .headertext{
         font-size: 1.8em;
     }
